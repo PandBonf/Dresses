@@ -1,0 +1,150 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot - Копировать %282%29\**" />
+    <Compile Remove="wwwroot - Копировать %283%29\**" />
+    <Compile Remove="wwwroot - Копировать %284%29\**" />
+    <Compile Remove="wwwroot - Копировать\**" />
+    <Compile Remove="wwwroot\wwwroot - Копировать %282%29\**" />
+    <Content Remove="wwwroot - Копировать %282%29\**" />
+    <Content Remove="wwwroot - Копировать %283%29\**" />
+    <Content Remove="wwwroot - Копировать %284%29\**" />
+    <Content Remove="wwwroot - Копировать\**" />
+    <Content Remove="wwwroot\wwwroot - Копировать %282%29\**" />
+    <EmbeddedResource Remove="wwwroot - Копировать %282%29\**" />
+    <EmbeddedResource Remove="wwwroot - Копировать %283%29\**" />
+    <EmbeddedResource Remove="wwwroot - Копировать %284%29\**" />
+    <EmbeddedResource Remove="wwwroot - Копировать\**" />
+    <EmbeddedResource Remove="wwwroot\wwwroot - Копировать %282%29\**" />
+    <None Remove="wwwroot - Копировать %282%29\**" />
+    <None Remove="wwwroot - Копировать %283%29\**" />
+    <None Remove="wwwroot - Копировать %284%29\**" />
+    <None Remove="wwwroot - Копировать\**" />
+    <None Remove="wwwroot\wwwroot - Копировать %282%29\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\IMG_9208.MP4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="wwwroot - Копировать (2)\css\site.css" />
+    <None Remove="wwwroot - Копировать (2)\favicon.ico" />
+    <None Remove="wwwroot - Копировать (2)\IMG_9208.MP4" />
+    <None Remove="wwwroot - Копировать (2)\js\site.js" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\css\bootstrap.css" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Remove="wwwroot - Копировать (2)\lib\bootstrap\LICENSE" />
+    <None Remove="wwwroot - Копировать (2)\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Remove="wwwroot - Копировать (2)\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Remove="wwwroot - Копировать (2)\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <None Remove="wwwroot - Копировать (2)\lib\jquery-validation\dist\additional-methods.js" />
+    <None Remove="wwwroot - Копировать (2)\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Remove="wwwroot - Копировать (2)\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Remove="wwwroot - Копировать (2)\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Remove="wwwroot - Копировать (2)\lib\jquery-validation\LICENSE.md" />
+    <None Remove="wwwroot - Копировать (2)\lib\jquery\dist\jquery.js" />
+    <None Remove="wwwroot - Копировать (2)\lib\jquery\dist\jquery.min.js" />
+    <None Remove="wwwroot - Копировать (2)\lib\jquery\dist\jquery.min.map" />
+    <None Remove="wwwroot - Копировать (2)\lib\jquery\LICENSE.txt" />
+    <None Remove="wwwroot - Копировать (2)\Nekopara.cur" />
+    <None Remove="wwwroot - Копировать (3)\css\site.css" />
+    <None Remove="wwwroot - Копировать (3)\favicon.ico" />
+    <None Remove="wwwroot - Копировать (3)\IMG_9208.MP4" />
+    <None Remove="wwwroot - Копировать (3)\js\site.js" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\css\bootstrap.css" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Remove="wwwroot - Копировать (3)\lib\bootstrap\LICENSE" />
+    <None Remove="wwwroot - Копировать (3)\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Remove="wwwroot - Копировать (3)\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Remove="wwwroot - Копировать (3)\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <None Remove="wwwroot - Копировать (3)\lib\jquery-validation\dist\additional-methods.js" />
+    <None Remove="wwwroot - Копировать (3)\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Remove="wwwroot - Копировать (3)\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Remove="wwwroot - Копировать (3)\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Remove="wwwroot - Копировать (3)\lib\jquery-validation\LICENSE.md" />
+    <None Remove="wwwroot - Копировать (3)\lib\jquery\dist\jquery.js" />
+    <None Remove="wwwroot - Копировать (3)\lib\jquery\dist\jquery.min.js" />
+    <None Remove="wwwroot - Копировать (3)\lib\jquery\dist\jquery.min.map" />
+    <None Remove="wwwroot - Копировать (3)\lib\jquery\LICENSE.txt" />
+    <None Remove="wwwroot - Копировать (3)\Nekopara.cur" />
+    <None Remove="wwwroot - Копировать (4)\css\site.css" />
+    <None Remove="wwwroot - Копировать (4)\favicon.ico" />
+    <None Remove="wwwroot - Копировать (4)\js\site.js" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\css\bootstrap.css" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Remove="wwwroot - Копировать (4)\lib\bootstrap\LICENSE" />
+    <None Remove="wwwroot - Копировать (4)\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Remove="wwwroot - Копировать (4)\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Remove="wwwroot - Копировать (4)\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <None Remove="wwwroot - Копировать (4)\lib\jquery-validation\dist\additional-methods.js" />
+    <None Remove="wwwroot - Копировать (4)\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Remove="wwwroot - Копировать (4)\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Remove="wwwroot - Копировать (4)\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Remove="wwwroot - Копировать (4)\lib\jquery-validation\LICENSE.md" />
+    <None Remove="wwwroot - Копировать (4)\lib\jquery\dist\jquery.js" />
+    <None Remove="wwwroot - Копировать (4)\lib\jquery\dist\jquery.min.js" />
+    <None Remove="wwwroot - Копировать (4)\lib\jquery\dist\jquery.min.map" />
+    <None Remove="wwwroot - Копировать (4)\lib\jquery\LICENSE.txt" />
+    <None Remove="wwwroot - Копировать (4)\Nekopara.cur" />
+  </ItemGroup>
+
+</Project>

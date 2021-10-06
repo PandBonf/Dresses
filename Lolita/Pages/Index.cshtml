@@ -1,0 +1,14 @@
+﻿@page
+@using Lolita.Components;
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+
+    <p>Мода Лолита (яп. ロリータ・ファッション Рори:та Фассён) — японская субкультура, основанная на стиле времён Викторианской эпохи, а также на костюмах эпохи Рококо. В некоторые подстили были добавлены элементы готической моды.</p>
+</div>
+@(await Html.RenderComponentAsync<ProductList>(RenderMode.ServerPrerendered))
+<script src=" _framework/blazor.server.js"></script>
+
